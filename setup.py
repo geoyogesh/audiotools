@@ -65,7 +65,7 @@ setup(
             "line_profiler",
             "pesq",
             "gradio==3.32.0",
-            "transformers>=4.23.1",
+            "transformers",
         ],
         "docs": [
             "sphinx",
@@ -75,7 +75,7 @@ setup(
             "sphinx-multiversion",
         ],
         "whisper": [
-            "transformers>=4.23.1",
+            "transformers",
         ],
     },
 )
